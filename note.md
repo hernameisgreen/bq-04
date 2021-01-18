@@ -132,6 +132,8 @@ if(!empty($_POST['bottom'])){
 
 ###會員管理
 - back/mem.php
+###管理者管理
+-main.php(把mem貼過來)
 ***
 
 
