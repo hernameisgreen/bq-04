@@ -129,6 +129,9 @@ if(!empty($_POST['bottom'])){
 - 改table=admin
 - -記得做admin 的table
 - id,acc, pw, pr(權限)
+
+###會員管理
+- back/mem.php
 ***
 
 
