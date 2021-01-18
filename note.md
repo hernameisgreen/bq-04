@@ -105,8 +105,24 @@ if(!empty($_POST['bottom'])){
 - login.php
 - admin.php
 - reg.php
+- create a new database table `mem`
+  - id, name, acc, pw, tel (save it in `text` because if you save it in number, the first zero will disappear), email, addr, regdate
 - api/chk_acc.php
+  - use jQuery to send the account you want to register to api
+  - count the ones that look exactly like yours
+    - if return 1, that means that account already exists
+    - if not, it means that you can use that account( nobody has registered)
 - api/reg.php 預設不會註冊失敗
+  - save the account once you are sure the usename hasn't been registered
+  - save it via post, but
+    - add one section `regdate`
+    - function login 可以丟到js.js(準備可以先寫)
+- login.php
+
+###驗證碼
+- 存 session
+- ans.php
+- login.php
 ***
 
 
