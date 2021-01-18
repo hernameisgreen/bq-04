@@ -102,6 +102,12 @@ if(!empty($_POST['bottom'])){
 - 把 `<?=$Bottom->find(1)['bottom'];?>`貼到index和backend的頁尾區
 ***
 ##會員註冊
+- login.php
+- admin.php
+- reg.php
+- api/chk_acc.php
+- api/reg.php 預設不會註冊失敗
+***
 
 
 
