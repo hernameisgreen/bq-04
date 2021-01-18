@@ -123,6 +123,12 @@ if(!empty($_POST['bottom'])){
 - 存 session
 - ans.php
 - login.php
+
+###管理登入
+- 直接貼login的
+- 改table=admin
+- -記得做admin 的table
+- id,acc, pw, pr(權限)
 ***
 
 
