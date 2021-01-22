@@ -135,6 +135,10 @@ if(!empty($_POST['bottom'])){
 ###管理者管理
 -main.php(把mem貼過來)
 ***
-
-
+2021/01/22
+main.php
+<button onclick="lof('?do=add_admin')">新增管理者</button></div>
+make a new file back/add_admin.php
+<!-- <h2 class="ct">新增管理帳號</h2> -->
+save_admin.php
 
