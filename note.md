@@ -122,7 +122,7 @@ if(!empty($_POST['bottom'])){
 ###驗證碼
 - 存 session
 - ans.php
-- login.php
+- login.**php**
 
 ###管理登入
 - 直接貼login的
@@ -141,4 +141,10 @@ main.php
 make a new file back/add_admin.php
 <!-- <h2 class="ct">新增管理帳號</h2> -->
 save_admin.php
-
+edit_admin.php
+***
+管理者登出
+***
+###購物車
+- th.php
+- api/add_big.php
