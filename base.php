@@ -8,6 +8,7 @@ $Bottom=new DB('bottom');
 $Mem=new DB('mem');
 $Admin=new DB('admin');
 $Type=new DB('type');
+$Goods=new DB('goods');
 
 class DB
 {
@@ -48,7 +49,7 @@ class DB
             //insert
             $sql = "insert into $this->table (`" . implode("`,`", array_keys($arr)) . "`) values('" . implode("','", $arr) . "')";
         }
-        //echo $sql;
+        echo $sql;
         return $this->pdo->exec($sql);
     }
 
